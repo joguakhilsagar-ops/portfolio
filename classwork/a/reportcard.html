@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Report Card</title>
+
+<link rel="stylesheet" href="reportcard.css">
+<style>
+    body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(135deg,#292d57,#8d334f);
+}
+
+.container{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    width:600px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.student-info{
+    margin-bottom:20px;
+}
+
+.student-info p{
+    margin:5px 0;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table, th, td{
+    border:1px solid #ddd;
+}
+
+th{
+    background:#1d2671;
+    color:white;
+    padding:10px;
+}
+
+td{
+    text-align:center;
+    padding:10px;
+}
+
+.result{
+    margin-top:20px;
+    font-size:18px;
+    font-weight:bold;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>Student Report Card</h1>
+
+<div class="student-info">
+<p><strong>Name:</strong>Jogu Akhil Sagar</p>
+<p><strong>Class:</strong> 12</p>
+<p><strong>Roll No:</strong> 25</p>
+<p><strong>School:</strong> ABC Higher Secondary School</p>
+</div>
+
+<table>
+
+<tr>
+<th>Subject</th>
+<th>Marks</th>
+<th>Grade</th>
+</tr>
+
+<tr>
+<td>Mathematics</td>
+<td>92</td>
+<td>A+</td>
+</tr>
+
+<tr>
+<td>Physics</td>
+<td>88</td>
+<td>A</td>
+</tr>
+
+<tr>
+<td>Chemistry</td>
+<td>85</td>
+<td>A</td>
+</tr>
+
+<tr>
+<td>Computer Science</td>
+<td>95</td>
+<td>A+</td>
+</tr>
+
+<tr>
+<td>English</td>
+<td>80</td>
+<td>B+</td>
+</tr>
+
+</table>
+
+<div class="result">
+<p>Total Marks: 440 / 500</p>
+<p>Percentage: 88%</p>
+<p>Result: PASS</p>
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body    {background-color:rgba(0, 124, 165, 0.63);}
+h1{
+    color:rgba(1, 9, 77, 0.689);
+    text-align:center;
+}
+</style>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    
+    <div class = "heading">
+        <h1>Student Registration Form</h1>
+        <p>Fill all the Details </p>
+    </div>
+    <form>
+        <fieldset class="Personal details">
+        <legend>Personal details</legend>
+        <label>First Name:</label>
+            <input type="text"id ="First Name"placeholder="Name"><br><br>
+        <label for="Last Name>last name">Last name:</label>
+            <input type="text"id="Last Name"name="Lastname"placeholder=" Name"><br><br>
+        <label for="E-mail">Email id:</label>
+            <input type="email"id="email"name="email"placeholder="@gmail.com"><br><br>
+        <label for = "Phone">Phone no:</label>
+            <input type ="tel"id="Phone"name="Phone"placeholder="10-digit No."><br><br>
+            <label>Gender</label><br>
+                <input type="radio">male
+                <input type="radio">female
+                <input type="checkbox">others<br>
+            <label>Courses</label><br>
+                <input type="checkbox">HTML
+                <input type="checkbox">CSS 
+                <input type="checkbox">JS     
+        </fieldset>
+        <button type="submit"id="sub">Register</button> 
+        <button type="reset"id="rst">Reset</button>
+       </form>
+</body>
+</html>
